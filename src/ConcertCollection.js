@@ -8,30 +8,13 @@ const ConcertCollection = ({ concerts }) => {
     artist={concert.artist}
     image={concert.image}
     venue={concert.venue}
-    date={concert.date}
     cost={concert.cost}
     />
-  ))
-  return (
-    <table className="ui celled striped padded table">
-      <tbody>
-        <tr>
-          <th>
-            <h3 className="ui center aligned header">Artist</h3>
-          </th>
-          <th>
-            <h3 className="ui center aligned header">Venue</h3>
-          </th>
-          <th>
-            <h3 className="ui center aligned header">Date</h3>
-          </th>
-          <th>
-            <h3 className="ui center aligned header">Cost</h3>
-          </th>
-        </tr>
-        {ConcertInfo}
-      </tbody>
-    </table>
-  );
-}
+    ))
+  
+    return (
+      <ul className="cards">{ConcertInfo}</ul>
+    );
+  }
+
 export default ConcertCollection

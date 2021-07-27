@@ -1,16 +1,16 @@
 import React from "react"
-// import Card from '../_card.jsx'
 // import YoutubeEmbed from "./YoutubeEmbed"
 
 const ConcertCard = ({ artist, image, venue, date, cost }) => {
  return (
-  <tr>
-  <td>{artist}</td>
-  <td>{venue}</td>
-  <td>{date}</td>
-  <td>{cost}</td>
-</tr>
-);
+   <li className="card">
+     <h2>{artist}</h2>
+     <img src={image} alt={artist}/>
+     <p>Venue: {venue}</p>
+     <p>Date: {date}</p>
+     <p>Cost: {cost}</p>
+   </li>
+ )
 }
 
 export default ConcertCard

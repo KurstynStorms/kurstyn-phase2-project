@@ -19,11 +19,12 @@ h2 {
   text-align: center;
 }
 
-button {
-  padding: 0.25rem 1rem;
+.concert-button {
+  padding: 10px 24px;
   font-family: inherit;
   border: none;
   cursor: pointer;
+  font-size: 16px;
 }
 
 button.primary {
@@ -52,25 +53,27 @@ main {
   padding: 0 1rem;
 }
 
-.ui-segment {
+.segment {
   padding: 2rem 1rem;
   margin: 2rem 0;
-  background-color: rgba(181, 250, 181, 0.5);
+  background-color: rgba(42, 102, 180, 0.5);
 }
 
-.ui-form {
+.form {
   display: flex;
   justify-content: center;
 }
 
-.ui input {
-  margin-right: 2rem;
-  flex: 1;
+.inline-fields {
+  width: 25% !important;
+  margin-right: 0.25em!important;
+  margin-left: 0.25em!important;
 }
 
-.new-plant-form button {
+/* .concert-button {
   width: 150px;
-}
+  background-color: #008CBA;
+} */
 
 .searchbar {
   padding: 1rem;

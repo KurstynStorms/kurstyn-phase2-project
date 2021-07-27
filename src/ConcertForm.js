@@ -37,48 +37,48 @@ const ConcertForm = ({ onAddConcert }) => {
       .then(onAddConcert)
 }
   return (
-    <div className="ui segment">
-      <form className="ui form" onSubmit={handleSubmit}>
-        <div className="inline fields">
+    <div className="segment">
+      <form className="form" onSubmit={handleSubmit}>
+        <div className="inline-fields">
           <input 
           type="text" 
           name="artist" 
-          placeholder="Artist"
+          placeholder="Artist..."
           value={formData.artist}
           onChange={handleChange}
           />
           <input 
           type="text" 
           name="image" 
-          placeholder="Image" 
+          placeholder="Artist Image..." 
           value={formData.image}
           onChange={handleChange}
           />
           <input 
           type="text" 
           name="venue" 
-          placeholder="Venue" 
+          placeholder="Venue..." 
           value={formData.venue}
           onChange={handleChange}
           />
           <input 
           type="text" 
           name="date" 
-          placeholder="Date" 
+          placeholder="Date..." 
           value={formData.date}
           onChange={handleChange}
           />
           <input 
           type="number" 
           name="cost" 
-          placeholder="Cost" 
+          placeholder="Cost..." 
           step="0.01" 
           value={formData.cost}
           onChange={handleChange}
           />
         </div>
-        <button className="ui button" type="submit">
-          Add Concert!
+        <button className="concert-button" type="submit">
+          Add Your Concert!
         </button>
       </form>
     </div>
