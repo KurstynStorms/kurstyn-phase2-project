@@ -7,8 +7,8 @@ import Header from "./Header"
 const App = () => {
   return (
     <div className="App">
-    <ConcertPage />
     <Header />
+    <ConcertPage />
     </div>
   )
 }

@@ -4,14 +4,13 @@ import React from "react"
 
 const ConcertCard = ({ artist, image, venue, date, cost }) => {
  return (
-   <li className="card">
-     <h2>{artist}</h2>
-     <img src={image} alt={artist}/>
-     <p>Venue: {venue}</p>
-     <p>Date: {date}</p>
-     <p>Cost: {cost}</p>
-   </li>
- )
+  <tr>
+  <td>{artist}</td>
+  <td>{venue}</td>
+  <td>{date}</td>
+  <td>{cost}</td>
+</tr>
+);
 }
 
 export default ConcertCard

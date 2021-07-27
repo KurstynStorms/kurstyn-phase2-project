@@ -5,7 +5,7 @@ const Search = ({ concertSearch, onChangeConcertSearch }) => {
     onChangeConcertSearch(event.target.value)
   }
   return(
-    <div className="ui large fluid icon input">
+    <div className="searchbar">
       <input
         type="text"
         placeholder="Search Artists.."

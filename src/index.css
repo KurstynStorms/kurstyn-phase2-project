@@ -15,6 +15,10 @@ h2 {
   margin-bottom: 1rem;
 }
 
+.table {
+  text-align: center;
+}
+
 button {
   padding: 0.25rem 1rem;
   font-family: inherit;
@@ -42,26 +46,24 @@ header h1 {
 .logo {
   font-size: 1.25em;
   padding-left: 0.5rem;
-  color: transparent;
-  text-shadow: 0 0 0 var(--green);
 }
 
 main {
   padding: 0 1rem;
 }
 
-.new-plant-form {
+.ui-segment {
   padding: 2rem 1rem;
   margin: 2rem 0;
   background-color: rgba(181, 250, 181, 0.5);
 }
 
-.new-plant-form form {
+.ui-form {
   display: flex;
   justify-content: center;
 }
 
-.new-plant-form input {
+.ui input {
   margin-right: 2rem;
   flex: 1;
 }

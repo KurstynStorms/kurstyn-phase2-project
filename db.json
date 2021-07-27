@@ -111,6 +111,14 @@
       "date": "Tuesday August 31st, 6:30 PM",
       "cost": "43.50",
       "id": 14
+    },
+    {
+      "artist": "New Found Glory",
+      "image": "https://static.billboard.com/files/media/new-found-glory-press-2017-cr-David-Bean-billboard-1548-compressed.jpg",
+      "venue": "Starland Ballroom",
+      "date": "Wednesday September 29th, 7:30 PM",
+      "cost": "71",
+      "id": 15
     }
   ]
 }

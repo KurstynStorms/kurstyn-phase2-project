@@ -6,7 +6,7 @@ const Header = () => {
       <h1>
         My Upcoming Philly Concerts
         <span className="logo" role="img">
-        🎵
+        🎉🎵 
         </span>
       </h1>
     </header>
