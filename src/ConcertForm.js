@@ -22,7 +22,7 @@ const ConcertForm = ({ onAddConcert }) => {
         image: formData.image,
         venue: formData.venue,
         date: formData.date,
-        cost: formData.cost,
+        cost: parseFloat(formData.cost),
       }
       
 

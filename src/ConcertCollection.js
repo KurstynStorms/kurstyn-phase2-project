@@ -2,7 +2,7 @@ import React from "react"
 import ConcertCard from "./ConcertCard"
 
 const ConcertCollection = ({ concerts }) => {
-  const ConcertInfo = concerts.map((concert) => (
+  const concertInfo = concerts.map((concert) => (
     <ConcertCard
     key={concert.key}
     artist={concert.artist}
@@ -13,8 +13,8 @@ const ConcertCollection = ({ concerts }) => {
     ))
   
     return (
-      <ul className="cards">{ConcertInfo}</ul>
-    );
+      <ul className="cards">{concertInfo}</ul>
+    )
   }
 
 export default ConcertCollection
