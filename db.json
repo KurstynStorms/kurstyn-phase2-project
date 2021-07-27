@@ -6,7 +6,8 @@
       "image": "https://images.kerrangcdn.com/Rise_Against_promo_2017.jpg?auto=compress&fit=crop&w=1200",
       "venue": "Skyline Stage",
       "date": "Sunday August 1st, 6:30 PM",
-      "cost": 45
+      "cost": 45,
+      "video": "https://youtu.be/e8X3ACToii0"
     },
     {
       "id": 2,
@@ -14,7 +15,8 @@
       "image": "https://www.nme.com/wp-content/uploads/2021/06/modest-mouse-2007.jpg",
       "venue": "The Met Philadelphia",
       "date": "Thursday August 5th, 8 PM",
-      "cost": 72
+      "cost": 72,
+      "video": "https://www.youtube.com/watch?v=CTAud5O7Qqk" 
     },
     {
       "id": 3,
@@ -22,7 +24,8 @@
       "image": "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/WAcB4OtS5TvzpNjtt9UM-6orXJs=/1440x0/arc-anglerfish-arc2-prod-bostonglobe.s3.amazonaws.com/public/UHQTVMWU7MI6LKMQMH5DBMPXNE.jpg",
       "venue": "Union Transfer",
       "date": "Friday August 13th, 8 PM",
-      "cost": 39
+      "cost": 39,
+      "video": "https://www.youtube.com/watch?v=8aQz-aKvyQU"
     },
     {
       "id": 4,
@@ -30,7 +33,8 @@
       "image": "https://static.billboard.com/files/media/X-Ambassadors-press-photo-2018-billboard-1548-compressed.jpg",
       "venue": "Theatre of Living Arts",
       "date": "Friday October 29th, 7:45 PM",
-      "cost": 30
+      "cost": 30,
+      "video": "https://www.youtube.com/watch?v=V0lw3qylVfY"
     },
     {
       "id": 5,
@@ -38,7 +42,8 @@
       "image": "https://s3.eu-west-1.amazonaws.com/cf-cdn.beggars.com/beggars_music/wp-content/uploads/2019/08/10150012/GAxEA-Pouring-APPROVED-1-e1574875937497.jpg",
       "venue": "The Mann Center",
       "date": "Tuesday September 28th, 8 PM",
-      "cost": 95
+      "cost": 95,
+      "video": "https://www.youtube.com/watch?v=mRD0-GxqHVo"
     },
     {
       "id": 6,
@@ -46,7 +51,8 @@
       "image": "https://townsquare.media/site/838/files/2020/11/bayside-2020.jpg?w=980&q=75",
       "venue": "Franklin Music Hall",
       "date": "Friday September 3rd, 7 PM",
-      "cost": 26.5
+      "cost": 26.5,
+      "video": "https://www.youtube.com/watch?v=AszabgCs6d8"
     },
     {
       "id": 7,
@@ -54,7 +60,8 @@
       "image": "https://static.billboard.com/files/media/J-Cole-bb22-2018-feat-billboard-jndfsjn-1548-compressed.jpg",
       "venue": "Wells Fargo Center",
       "date": "Wednesday September 29th, 8PM",
-      "cost": 94
+      "cost": 94,
+      "video": "https://www.youtube.com/watch?v=W5hSdGt2M8w"
     },
     {
       "id": 8,
@@ -62,7 +69,8 @@
       "image": "https://s1.ticketm.net/dam/a/644/3fbaba8e-cc00-48a5-8828-ceb35c6d3644_1438931_TABLET_LANDSCAPE_LARGE_16_9.jpg",
       "venue": "The Fillmore Philadelphia",
       "date": "Saturday October 16th, 6:30 PM",
-      "cost": 29.5
+      "cost": 29.5,
+      "video": "https://www.youtube.com/watch?v=vsJEC3Ar_ss"
     },
     {
       "id": 9,
@@ -70,7 +78,8 @@
       "image": "http://pilerats.com/assets/Uploads/_resampled/SetWidth940-the-front-bottoms-interview.jpg",
       "venue": "The Fillmore Philadelphia",
       "date": "Friday October 22nd, 8 PM",
-      "cost": 77
+      "cost": 77,
+      "video": "https://www.youtube.com/watch?v=-1rzsT2t2YY"
     },
     {
       "id": 10,
@@ -78,7 +87,8 @@
       "image": "https://i2.wp.com/www.iconvsicon.com/wp-content/uploads/2020/07/The-Midnight-Monsters-2020-featured-scaled.jpg?fit=2560%2C1706&ssl=1",
       "venue": "Union Transfer",
       "date": "Friday March 25th, 8 PM",
-      "cost": 58
+      "cost": 58,
+      "video": "https://www.youtube.com/watch?v=18-Ye2L3ej8"
     },
     {
       "id": 11,
@@ -86,7 +96,8 @@
       "image": "https://www.gannett-cdn.com/presto/2018/10/25/PNAS/ca9bcd45-a9c1-4ae6-a89b-24a32d5322fd-NAS-ELTONJOHN-028.jpg?crop=3599,2015,x0,y0&width=660&height=372&format=pjpg&auto=webp",
       "venue": "Citizens Bank Park",
       "date": "Friday July 15th, 8 PM",
-      "cost": 171
+      "cost": 171,
+      "video": "https://www.youtube.com/watch?v=26wEWSUUsUc"
     },
     {
       "artist": "Jason Mraz",
@@ -94,6 +105,7 @@
       "venue": "Skyline Stage",
       "date": "Friday August 20th, 7:30 PM",
       "cost": 49.5,
+      "video": "https://www.youtube.com/watch?v=BW17WAwMcoQ",
       "id": 12
     },
     {
@@ -102,6 +114,7 @@
       "venue": "BB&T Pavilion",
       "date": "Sunday August 29th, 7:30 PM",
       "cost": 27.75,
+      "video": "https://www.youtube.com/watch?v=RYOW5uoyKl0",
       "id": 13
     },
     {
@@ -110,6 +123,7 @@
       "venue": "Skyline Stage",
       "date": "Tuesday August 31st, 6:30 PM",
       "cost": 43.5,
+      "video": "https://www.youtube.com/watch?v=x-64CaD8GXw",
       "id": 14
     },
     {
@@ -118,6 +132,7 @@
       "venue": "Starland Ballroom",
       "date": "Wednesday September 29th, 7:30 PM",
       "cost": 71,
+      "video": "https://www.youtube.com/watch?v=QfcLcDBII78",
       "id": 15
     },
     {
@@ -126,6 +141,7 @@
       "venue": "The Mann Center",
       "date": "Sunday May 15th 2022, 7:30 PM",
       "cost": 37,
+      "video": "https://www.youtube.com/watch?v=tetXO_a3TpQ",
       "id": 16
     },
     {
@@ -134,6 +150,7 @@
       "venue": "The Mann Center",
       "date": "Saturday August 7th, 4 PM",
       "cost": 35,
+      "video": "https://www.youtube.com/watch?v=EErSKhC0CZs",
       "id": 17
     }
   ]

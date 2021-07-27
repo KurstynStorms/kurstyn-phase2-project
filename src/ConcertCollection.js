@@ -4,7 +4,7 @@ import ConcertCard from "./ConcertCard"
 const ConcertCollection = ({ concerts }) => {
     return (
       <ul className="cards">
-        {concerts.map( (concert) => (
+        {concerts.map((concert) => (
             <ConcertCard
               key={concert.key}
               artist={concert.artist}

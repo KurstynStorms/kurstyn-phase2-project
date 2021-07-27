@@ -29,12 +29,13 @@ return (
         <NavBar />
         <Switch>
             <Route exact path="/">
-                <ConcertCollection 
-                concerts={concertsRendered}
-                />
-                <Search 
+                  <Search 
                   concertSearch={concertSearch}
-                  onChangeConcertSearch={setConcertSearch}/>
+                  onChangeConcertSearch={setConcertSearch}
+                  />
+                  <ConcertCollection 
+                  concerts={concertsRendered}
+                  />
             </Route>
             <Route path="/addconcert">
                   <ConcertForm
@@ -42,7 +43,9 @@ return (
                   />
             </Route>
             <Route path="/videos">
-                  <MusicVideos />
+                  <MusicVideos 
+                  concerts={concerts}
+                  />
             </Route>   
         </Switch>
    </div>
