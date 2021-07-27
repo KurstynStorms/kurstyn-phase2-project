@@ -47,6 +47,7 @@ const ConcertForm = ({ onAddConcert }) => {
           value={formData.artist}
           onChange={handleChange}
           />
+          <br />
           <input 
           type="text" 
           name="image" 
@@ -54,6 +55,7 @@ const ConcertForm = ({ onAddConcert }) => {
           value={formData.image}
           onChange={handleChange}
           />
+          <br />
           <input 
           type="text" 
           name="venue" 
@@ -61,6 +63,7 @@ const ConcertForm = ({ onAddConcert }) => {
           value={formData.venue}
           onChange={handleChange}
           />
+          <br />
           <input 
           type="text" 
           name="date" 
@@ -68,6 +71,7 @@ const ConcertForm = ({ onAddConcert }) => {
           value={formData.date}
           onChange={handleChange}
           />
+          <br />
           <input 
           type="number" 
           name="cost" 
@@ -76,8 +80,9 @@ const ConcertForm = ({ onAddConcert }) => {
           value={formData.cost}
           onChange={handleChange}
           />
+          <br />
         </div>
-        <button className="concert-button" type="submit">
+        <button id="concert-button" type="submit">
           Add Your Concert!
         </button>
       </form>

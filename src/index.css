@@ -60,7 +60,6 @@ main {
 .segment {
   padding: 2rem 1rem;
   margin: 2rem 0;
-  /* background-color: rgba(42, 102, 180, 0.5); */
   background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/full-moon-philly-panorama-frozen-in-time-fine-art-photography.jpg");
 }
 
@@ -74,11 +73,6 @@ main {
   margin-right: 0.25em!important;
   margin-left: 0.25em!important;
 }
-
-/* .concert-button {
-  width: 150px;
-  background-color: #008CBA;
-} */
 
 .searchbar {
   width: 100%;
