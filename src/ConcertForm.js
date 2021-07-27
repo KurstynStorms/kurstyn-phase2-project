@@ -16,7 +16,8 @@ const ConcertForm = ({ onAddConcert }) => {
     })  
   }
     
-    const handleSubmit = () => {
+    const handleSubmit = (event) => {
+      event.preventDefault()
       const addNewConcert = {
         artist: formData.artist,
         image: formData.image,
@@ -24,18 +25,17 @@ const ConcertForm = ({ onAddConcert }) => {
         date: formData.date,
         cost: parseFloat(formData.cost),
       }
-      
 
-    fetch("http://localhost:4000/concerts", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body:JSON.stringify(addNewConcert),
-    })
-      .then((resp) => resp.json())
-      .then(onAddConcert)
-}
+      fetch("http://localhost:4000/concerts", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body:JSON.stringify(addNewConcert),
+      })
+        .then((resp) => resp.json())
+        .then(onAddConcert)
+    }
   return (
     <div className="segment">
       <form className="form" onSubmit={handleSubmit}>
@@ -43,35 +43,35 @@ const ConcertForm = ({ onAddConcert }) => {
           <input 
           type="text" 
           name="artist" 
-          placeholder="Artist..."
+          placeholder="Artist You're Seeing Here"
           value={formData.artist}
           onChange={handleChange}
           />
           <input 
           type="text" 
           name="image" 
-          placeholder="Artist Image..." 
+          placeholder="Your Artist's Image Url Here" 
           value={formData.image}
           onChange={handleChange}
           />
           <input 
           type="text" 
           name="venue" 
-          placeholder="Venue..." 
+          placeholder="Philly Venue of the Show" 
           value={formData.venue}
           onChange={handleChange}
           />
           <input 
           type="text" 
           name="date" 
-          placeholder="Date..." 
+          placeholder="Date/Time: mm/dd/yy, 0:00 AM/PM" 
           value={formData.date}
           onChange={handleChange}
           />
           <input 
           type="number" 
           name="cost" 
-          placeholder="Cost..." 
+          placeholder="Price of Ticket: 0.00$" 
           step="0.01" 
           value={formData.cost}
           onChange={handleChange}

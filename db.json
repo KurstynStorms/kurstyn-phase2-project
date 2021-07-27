@@ -93,7 +93,7 @@
       "image": "https://pyxis.nymag.com/v1/imgs/976/f48/14027a658f613bc5829f77864715df9aaa-jason-mraz-superlative.jpg",
       "venue": "Skyline Stage",
       "date": "Friday August 20th, 7:30 PM",
-      "cost": 49.50,
+      "cost": 49.5,
       "id": 12
     },
     {
@@ -109,7 +109,7 @@
       "image": "https://arc-anglerfish-arc2-prod-bostonglobe.s3.amazonaws.com/public/6VOLQZCSY4I6HKN2BU77L4YMEU.jpg",
       "venue": "Skyline Stage",
       "date": "Tuesday August 31st, 6:30 PM",
-      "cost": 43.50,
+      "cost": 43.5,
       "id": 14
     },
     {
@@ -119,6 +119,22 @@
       "date": "Wednesday September 29th, 7:30 PM",
       "cost": 71,
       "id": 15
+    },
+    {
+      "artist": "AJR",
+      "image": "https://www.elicitmagazine.com/wp-content/uploads/2020/04/AJR-Interview-Elicit-Magazine-1200x660.jpg",
+      "venue": "The Mann Center",
+      "date": "Sunday May 15th 2022, 7:30 PM",
+      "cost": 37,
+      "id": 16
+    },
+    {
+      "artist": "Hall & Oates",
+      "image": "https://static.spin.com/files/2019/08/GettyImages-541323967-1567266050-828x508.jpg",
+      "venue": "The Mann Center",
+      "date": "Saturday August 7th, 4 PM",
+      "cost": 35,
+      "id": 17
     }
   ]
 }

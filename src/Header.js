@@ -4,10 +4,7 @@ const Header = () => {
   return (
     <header>
       <h1>
-        My Upcoming Philly Concerts
-        <span className="logo" role="img">
-        🎉🎵 
-        </span>
+      🎉🎵 My Upcoming Philly Concerts 🎉🎵 
       </h1>
     </header>
   );

@@ -1,9 +1,9 @@
 import React from "react"
 // import YoutubeEmbed from "./YoutubeEmbed"
 
-const ConcertCard = ({ artist, image, venue, date, cost }) => {
+const ConcertCard = ({ artist, image, venue, date, cost, key }) => {
  return (
-   <li className="card">
+   <li key={key} className="card">
      <h2>{artist}</h2>
      <img src={image} alt={artist}/>
      <p>Venue: {venue}</p>
