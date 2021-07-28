@@ -16,8 +16,7 @@ const ConcertForm = ({ onAddConcert }) => {
     })  
   }
     
-    const handleSubmit = (event) => {
-      event.preventDefault()
+    const handleSubmit = () => {
       const addNewConcert = {
         artist: formData.artist,
         image: formData.image,
@@ -51,7 +50,7 @@ const ConcertForm = ({ onAddConcert }) => {
           <input 
           type="text" 
           name="image" 
-          placeholder="Your Artist's Image Url Here" 
+          placeholder="Artist's Image Url Here" 
           value={formData.image}
           onChange={handleChange}
           />
@@ -59,7 +58,7 @@ const ConcertForm = ({ onAddConcert }) => {
           <input 
           type="text" 
           name="venue" 
-          placeholder="Philly Venue of the Show" 
+          placeholder="Venue of the Show" 
           value={formData.venue}
           onChange={handleChange}
           />
@@ -67,7 +66,7 @@ const ConcertForm = ({ onAddConcert }) => {
           <input 
           type="text" 
           name="date" 
-          placeholder="Date/Time: mm/dd/yy, 0:00 AM/PM" 
+          placeholder="Date/Time" 
           value={formData.date}
           onChange={handleChange}
           />

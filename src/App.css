@@ -67,6 +67,7 @@ button.primary {
 
 .h1 {
   font-size: 20px;
+  color:rgb(122, 62, 190);
   font-weight: 1200;
   text-align: center;
   padding: 0.5rem 0;
@@ -105,8 +106,6 @@ main {
   position: center;
   display: flex;
 }
-
-
 
 label {
   font-weight: bold;

@@ -43,9 +43,11 @@ button.primary {
 
 .h1 {
   font-size: 20px;
+  color:rgb(122, 62, 190);
   font-weight: 1200;
   text-align: center;
   padding: 0.5rem 0;
+  background-image: "https://isteam.wsimg.com/ip/f9949944-00e7-11e6-8364-14feb5d9e2d6/ols/1559_original/:/rs=w:600,h:600";
 }
 
 .logo {
@@ -118,6 +120,27 @@ input:focus {
   margin-top: 0.5rem;
 }
 
+.home-button {
+  background-color: white;
+  color: black;
+  border: 2px solid #1e66be;
+  border-radius: 4px;
+}
+
+.add-a-concert {
+  background-color: white;
+  color: black;
+  border: 2px solid #1e66be;
+  border-radius: 4px;
+}
+
+.video-button {
+  background-color: white;
+  color: black;
+  border: 2px solid #1e66be;
+  border-radius: 4px;
+}
+
 .video-responsive {
   overflow: hidden;
   padding-bottom: 56.25%;
@@ -128,8 +151,8 @@ input:focus {
 .video-responsive iframe {
   left: 0;
   top: 0;
-  height: 100%;
-  width: 100%;
+  height: 50%;
+  width: 50%;
   position: absolute;
 }
 

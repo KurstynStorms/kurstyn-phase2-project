@@ -4,9 +4,9 @@ import { NavLink } from "react-router-dom";
 function NavBar() {
   return (
     <div className="navbar">
-      <NavLink to="/"><button>Home</button></NavLink>
-      <NavLink to="addconcert"><button>Add A Concert</button></NavLink>
-      <NavLink to="/videos"><button>Music Videos</button></NavLink>
+      <NavLink to="/"><button className="home-button">Home</button></NavLink>
+      <NavLink to="addconcert"><button className="add-a-concert">Add A Concert</button></NavLink>
+      <NavLink to="/videos"><button className="video-button">Music Videos</button></NavLink>
     </div>
   );
 }

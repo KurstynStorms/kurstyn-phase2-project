@@ -7,7 +7,7 @@
       "venue": "Skyline Stage",
       "date": "Sunday August 1st, 6:30 PM",
       "cost": 45,
-      "video": "https://youtu.be/e8X3ACToii0"
+      "video": "e8X3ACToii0"
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "venue": "The Met Philadelphia",
       "date": "Thursday August 5th, 8 PM",
       "cost": 72,
-      "video": "https://www.youtube.com/watch?v=CTAud5O7Qqk" 
+      "video": "CTAud5O7Qqk"
     },
     {
       "id": 3,
@@ -25,7 +25,7 @@
       "venue": "Union Transfer",
       "date": "Friday August 13th, 8 PM",
       "cost": 39,
-      "video": "https://www.youtube.com/watch?v=8aQz-aKvyQU"
+      "video": "8aQz-aKvyQU"
     },
     {
       "id": 4,
@@ -34,7 +34,7 @@
       "venue": "Theatre of Living Arts",
       "date": "Friday October 29th, 7:45 PM",
       "cost": 30,
-      "video": "https://www.youtube.com/watch?v=V0lw3qylVfY"
+      "video": "V0lw3qylVfY"
     },
     {
       "id": 5,
@@ -43,7 +43,7 @@
       "venue": "The Mann Center",
       "date": "Tuesday September 28th, 8 PM",
       "cost": 95,
-      "video": "https://www.youtube.com/watch?v=mRD0-GxqHVo"
+      "video": "mRD0-GxqHVo"
     },
     {
       "id": 6,
@@ -52,7 +52,7 @@
       "venue": "Franklin Music Hall",
       "date": "Friday September 3rd, 7 PM",
       "cost": 26.5,
-      "video": "https://www.youtube.com/watch?v=AszabgCs6d8"
+      "video": "AszabgCs6d8"
     },
     {
       "id": 7,
@@ -61,7 +61,7 @@
       "venue": "Wells Fargo Center",
       "date": "Wednesday September 29th, 8PM",
       "cost": 94,
-      "video": "https://www.youtube.com/watch?v=W5hSdGt2M8w"
+      "video": "W5hSdGt2M8w"
     },
     {
       "id": 8,
@@ -70,7 +70,7 @@
       "venue": "The Fillmore Philadelphia",
       "date": "Saturday October 16th, 6:30 PM",
       "cost": 29.5,
-      "video": "https://www.youtube.com/watch?v=vsJEC3Ar_ss"
+      "video": "vsJEC3Ar_ss"
     },
     {
       "id": 9,
@@ -79,7 +79,7 @@
       "venue": "The Fillmore Philadelphia",
       "date": "Friday October 22nd, 8 PM",
       "cost": 77,
-      "video": "https://www.youtube.com/watch?v=-1rzsT2t2YY"
+      "video": "-1rzsT2t2YY"
     },
     {
       "id": 10,
@@ -88,7 +88,7 @@
       "venue": "Union Transfer",
       "date": "Friday March 25th, 8 PM",
       "cost": 58,
-      "video": "https://www.youtube.com/watch?v=18-Ye2L3ej8"
+      "video": "18-Ye2L3ej8"
     },
     {
       "id": 11,
@@ -97,7 +97,7 @@
       "venue": "Citizens Bank Park",
       "date": "Friday July 15th, 8 PM",
       "cost": 171,
-      "video": "https://www.youtube.com/watch?v=26wEWSUUsUc"
+      "video": "26wEWSUUsUc"
     },
     {
       "artist": "Jason Mraz",
@@ -105,7 +105,7 @@
       "venue": "Skyline Stage",
       "date": "Friday August 20th, 7:30 PM",
       "cost": 49.5,
-      "video": "https://www.youtube.com/watch?v=BW17WAwMcoQ",
+      "video": "BW17WAwMcoQ",
       "id": 12
     },
     {
@@ -114,7 +114,7 @@
       "venue": "BB&T Pavilion",
       "date": "Sunday August 29th, 7:30 PM",
       "cost": 27.75,
-      "video": "https://www.youtube.com/watch?v=RYOW5uoyKl0",
+      "video": "RYOW5uoyKl0",
       "id": 13
     },
     {
@@ -123,7 +123,7 @@
       "venue": "Skyline Stage",
       "date": "Tuesday August 31st, 6:30 PM",
       "cost": 43.5,
-      "video": "https://www.youtube.com/watch?v=x-64CaD8GXw",
+      "video": "x-64CaD8GXw",
       "id": 14
     },
     {
@@ -132,7 +132,7 @@
       "venue": "Starland Ballroom",
       "date": "Wednesday September 29th, 7:30 PM",
       "cost": 71,
-      "video": "https://www.youtube.com/watch?v=QfcLcDBII78",
+      "video": "QfcLcDBII78",
       "id": 15
     },
     {
@@ -141,7 +141,7 @@
       "venue": "The Mann Center",
       "date": "Sunday May 15th 2022, 7:30 PM",
       "cost": 37,
-      "video": "https://www.youtube.com/watch?v=tetXO_a3TpQ",
+      "video": "tetXO_a3TpQ",
       "id": 16
     },
     {
@@ -150,8 +150,17 @@
       "venue": "The Mann Center",
       "date": "Saturday August 7th, 4 PM",
       "cost": 35,
-      "video": "https://www.youtube.com/watch?v=EErSKhC0CZs",
+      "video": "EErSKhC0CZs",
       "id": 17
+    },
+    {
+      "artist": "Porter Robinson",
+      "image": "https://unzyme.com/wp-content/uploads/2020/02/porter-robinson-get-your-wish.jpg",
+      "venue": "The Met Philadelphia",
+      "date": "Sunday October 17th, 8 PM",
+      "cost": 40,
+      "video": "TJBh_hj6DzE",
+      "id": 18
     }
   ]
 }
