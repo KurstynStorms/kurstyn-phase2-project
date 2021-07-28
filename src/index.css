@@ -1,5 +1,7 @@
-:root {
-  --green: rgb(42, 80, 42);
+.App {
+  text-align: center;
+  background: rgb(58,176,180);
+  background: linear-gradient(90deg, rgba(58,176,180,1) 0%, rgba(162,29,253,1) 50%, rgba(58,176,180,1) 100%);
 }
 
 * {
@@ -7,9 +9,16 @@
   text-align: center;
 }
 
-body {
-  font-family: "Playfair Display", serif;
-  color: black
+h1 {
+font-family: Impact, Charcoal, sans-serif;
+font-size: 40px;
+letter-spacing: 2px;
+word-spacing: 10px;
+color: #FFFFFF;
+font-weight: normal;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
 }
 
 h2 {
@@ -17,46 +26,9 @@ h2 {
   color:rgb(122, 62, 190)
 }
 
-.table {
-  text-align: center;
-}
-
-.concert-button {
-  padding: 10px 24px;
-  font-family: inherit;
-  border: none;
-  cursor: pointer;
-  font-size: 16px;
-  border-radius: 8px;
-  transition-duration: 0.4s
-}
-
-button.primary {
-  background-color: var(--green);
-  color: rgb(252, 250, 250);
-}
-
 .app {
   margin: 0 auto;
   max-width: 1200px;
-}
-
-.h1 {
-  font-size: 20px;
-  color:rgb(122, 62, 190);
-  font-weight: 1200;
-  text-align: center;
-  padding: 0.5rem 0;
-  background-image: "https://isteam.wsimg.com/ip/f9949944-00e7-11e6-8364-14feb5d9e2d6/ols/1559_original/:/rs=w:600,h:600";
-}
-
-.logo {
-  font-size: 1.25em;
-  padding-left: 0.5rem;
-}
-
-main {
-  padding: 0 1rem;
 }
 
 .segment {
@@ -65,46 +37,11 @@ main {
   background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/full-moon-philly-panorama-frozen-in-time-fine-art-photography.jpg");
 }
 
-.form {
-  display: flex;
-  justify-content: center;
-}
-
-.inline-fields {
-  width: 25% !important;
-  margin-right: 0.25em!important;
-  margin-left: 0.25em!important;
-}
-
-.searchbar {
-  width: 100%;
-  position: center;
-  display: flex;
-}
-
-label {
-  font-weight: bold;
-  display: block;
-}
-
-input {
-  padding: 0.25rem;
-  border: none;
-  font-family: inherit;
-  font-size: 1.2em;
-  border-bottom: 2px solid rgb(25, 54, 180);
-  transition: all 0.2s;
-  width: 100%;
-}
-
-input:focus {
-  outline: none;
-  border-bottom: 2px solid var(--green);
-}
-
 .cards {
   list-style: none;
   border-radius: 5px;
+  background-color: white;
+  color:rgb(122, 62, 190)
 }
 
 .card {
@@ -112,55 +49,84 @@ input:focus {
   border-radius: 5px;
 }
 
-.card img {
-  width: 100%;
-}
-
-.card button {
-  margin-top: 0.5rem;
-}
-
 .home-button {
-  background-color: white;
-  color: black;
-  border: 2px solid #1e66be;
-  border-radius: 4px;
+  border-radius: 12px;
+  padding: 6px 24px;
+  transition-duration: 0.4s;
+}
+
+.home-button:hover {
+  background-color: #3ab0b4; /* Green */
+  color: white;
 }
 
 .add-a-concert {
-  background-color: white;
-  color: black;
-  border: 2px solid #1e66be;
-  border-radius: 4px;
+  border-radius: 12px;
+  padding: 6px 24px;
+  transition-duration: 0.4s;
+}
+
+.add-a-concert:hover {
+  background-color: #3ab0b4; /* Green */
+  color: white;
 }
 
 .video-button {
+  border-radius: 12px;
+  padding: 6px 24px;
+  transition-duration: 0.4s;
+}
+
+.video-button:hover {
+  background-color: #3ab0b4; /* Green */
+  color: white;
+}
+
+/* .card button {
+  margin-top: 0.5rem;
+} */
+
+/* .home-button {
   background-color: white;
   color: black;
   border: 2px solid #1e66be;
   border-radius: 4px;
-}
+} */
 
-.video-responsive {
+/* .add-a-concert {
+  background-color: white;
+  color: black;
+  border: 2px solid #1e66be;
+  border-radius: 4px;
+} */
+
+/* .video-button {
+  background-color: white;
+  color: black;
+  border: 2px solid #1e66be;
+  border-radius: 4px;
+} */
+
+/* .video-responsive {
   overflow: hidden;
   padding-bottom: 56.25%;
   position: relative;
   height: 0;
-}
+} */
 
-.video-responsive iframe {
+/* .video-responsive iframe {
   left: 0;
   top: 0;
   height: 50%;
-  width: 50%;
+  width: %;
   position: absolute;
-}
+} */
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .cards {
     display: flex;
     flex-wrap: wrap;
-  }
+  } 
 
   .card {
     width: calc(33% - 2rem);
@@ -173,8 +139,8 @@ input:focus {
   }
 }
 
-@media (min-width: 1200px) {
+ @media (min-width: 1200px) {
   .card {
     width: calc(20% - 2rem);
   }
-}
+} */

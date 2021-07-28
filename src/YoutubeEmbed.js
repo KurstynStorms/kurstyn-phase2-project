@@ -4,7 +4,7 @@ import React from "react"
 const YoutubeEmbed = ({ artist, embedId }) => (
   <div className="video-responsive">
     <h3>{artist}</h3>
-    <br />
+      <br />
     <iframe
       width="853"
       height="480"
