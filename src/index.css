@@ -26,6 +26,18 @@ h2 {
   color:rgb(122, 62, 190)
 }
 
+h3 {
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 25px;
+  letter-spacing: 4px;
+  word-spacing: 10px;
+  color: #FFFFFF;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  }
+
 .app {
   margin: 0 auto;
   max-width: 1200px;
@@ -81,6 +93,76 @@ h2 {
   background-color: #3ab0b4; /* Green */
   color: white;
 }
+
+.artist-input {
+    width: 25%;
+    border: 3px solid #00b4cc;
+    border-right: none;
+    padding: 5px;
+    height: 30px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #030303;
+}
+
+.image-input {
+  width: 25%;
+  border: 3px solid #00b4cc;
+  border-right: none;
+  padding: 5px;
+  height: 30px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #030303;
+}
+
+.venue-input {
+  width: 25%;
+  border: 3px solid #00b4cc;
+  border-right: none;
+  padding: 5px;
+  height: 30px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #030303;
+}
+
+.date-input {
+  width: 25%;
+  border: 3px solid #00b4cc;
+  border-right: none;
+  padding: 5px;
+  height: 30px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #030303;
+}
+
+.cost-input {
+  width: 25%;
+  border: 3px solid #00b4cc;
+  border-right: none;
+  padding: 5px;
+  height: 30px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #030303;
+}
+
+.concert-button {
+  border-radius: 12px;
+  padding: 6px 24px;
+  transition-duration: 0.4s;
+}
+
+.concert-button:hover {
+  background-color: #3ab0b4; /* Green */
+  color: white;
+}
+
+ /* .videos {
+  width: 25%;
+}  */
 
 /* .card button {
   margin-top: 0.5rem;

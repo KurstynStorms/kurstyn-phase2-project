@@ -1,13 +1,10 @@
  .App {
   text-align: center;
+  background-color: black;
 }
  * {
   box-sizing: border-box;
   text-align: center;
-}
-
-.body {
-  background-color: black;
 }
 
 h2 {

@@ -40,6 +40,7 @@ const ConcertForm = ({ onAddConcert }) => {
       <form className="form" onSubmit={handleSubmit}>
         <div className="inline-fields">
           <input 
+          className="artist-input"
           type="text" 
           name="artist" 
           placeholder="Artist You're Seeing Here"
@@ -48,6 +49,7 @@ const ConcertForm = ({ onAddConcert }) => {
           />
           <br />
           <input 
+          className="image-input"
           type="text" 
           name="image" 
           placeholder="Artist's Image Url Here" 
@@ -56,6 +58,7 @@ const ConcertForm = ({ onAddConcert }) => {
           />
           <br />
           <input 
+          className="venue-input"
           type="text" 
           name="venue" 
           placeholder="Venue of the Show" 
@@ -64,6 +67,7 @@ const ConcertForm = ({ onAddConcert }) => {
           />
           <br />
           <input 
+          className="date-input"
           type="text" 
           name="date" 
           placeholder="Date/Time" 
@@ -72,6 +76,7 @@ const ConcertForm = ({ onAddConcert }) => {
           />
           <br />
           <input 
+          className="cost-input"
           type="number" 
           name="cost" 
           placeholder="Price of Ticket: 0.00$" 
@@ -81,7 +86,7 @@ const ConcertForm = ({ onAddConcert }) => {
           />
           <br />
         </div>
-        <button id="concert-button" type="submit">
+        <button className="concert-button" type="submit">
           Add Your Concert!
         </button>
       </form>

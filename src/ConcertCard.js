@@ -8,7 +8,7 @@ const ConcertCard = ({ artist, image, venue, date, cost, key }) => {
      <img src={image} alt={artist}/>
      <p>Venue: {venue}</p>
      <p>Date: {date}</p>
-     <p>Cost: {cost}</p>
+     <p>Cost: ${cost}</p>
    </li>
  )
 }
