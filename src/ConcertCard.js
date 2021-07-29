@@ -8,6 +8,7 @@ const ConcertCard = ({ key, concert, onDeleteConcert }) => {
       method: "DELETE"
     })
       .then(() => onDeleteConcert(concert))
+    alert("Tickets purchased!")
   }
 
   return (
