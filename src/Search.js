@@ -4,7 +4,7 @@ const Search = ({ concertSearch, onChangeConcertSearch }) => {
   const handleChange = (event) => {
     onChangeConcertSearch(event.target.value)
   }
-  return(
+  return (
     <div className="searchbar">
       <input
         type="text"

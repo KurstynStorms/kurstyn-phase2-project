@@ -7,34 +7,40 @@ import Search from "./Search"
 import NavBar from "./NavBar"
 
 const ConcertPage = () => {
- const [concerts, setConcerts] = useState([])
- const [concertSearch, setConcertSearch] = useState("")
+  const [concerts, setConcerts] = useState([])
+  const [concertSearch, setConcertSearch] = useState("")
 
   useEffect(() => {
     fetch("http://localhost:4000/concerts")
-     .then((resp) => resp.json())
-     .then(data => setConcerts(data))
+      .then((resp) => resp.json())
+      .then(data => setConcerts(data))
   }, [])
 
-    const handleAddConcert = (newConcert) => {
-      setConcerts([...concerts, newConcert])
+  const handleAddConcert = (newConcert) => {
+    setConcerts([...concerts, newConcert])
   }
 
-      const concertsRendered = concerts.filter((concert) => 
-        concert.artist.toLowerCase().includes(concertSearch.toLowerCase())
-)
+  const concertsRendered = concerts.filter((concert) =>
+    concert.artist.toLowerCase().includes(concertSearch.toLowerCase())
+  )
 
-return (
+  const handleDeleteConcert = (concertToDelete) => {
+    const updatedConcerts = concerts.filter((concert) => concert.id !== concertToDelete.id)
+    setConcerts(updatedConcerts)
+  }
+
+  return (
    <div>
         <NavBar />
         <Switch>
             <Route exact path="/">
-                  <Search 
+                  <Search
                   concertSearch={concertSearch}
                   onChangeConcertSearch={setConcertSearch}
                   />
-                  <ConcertCollection 
+                  <ConcertCollection
                   concerts={concertsRendered}
+                  onDeleteConcert={handleDeleteConcert}
                   />
             </Route>
             <Route path="/addconcert">
@@ -43,13 +49,13 @@ return (
                   />
             </Route>
             <Route path="/videos">
-                  <MusicVideos 
+                  <MusicVideos
                   concerts={concerts}
                   />
-            </Route>   
+            </Route>
         </Switch>
    </div>
- )
+  )
 }
 
 export default ConcertPage

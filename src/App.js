@@ -1,4 +1,4 @@
-import './App.css'
+import "./App.css"
 import React from "react"
 import ConcertPage from "./ConcertPage"
 import Header from "./Header"
@@ -12,4 +12,4 @@ const App = () => {
   )
 }
 
-export default App;
+export default App
