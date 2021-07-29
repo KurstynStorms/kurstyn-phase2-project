@@ -2,7 +2,7 @@ import React from "react"
 import YoutubeEmbed from "./YoutubeEmbed"
 
 const MusicVideos = ({ concerts }) => {
-  return(
+  return (
     <ul className="videos">
         {concerts.map((concert) => (
             <YoutubeEmbed

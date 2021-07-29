@@ -2,7 +2,7 @@ import React from "react"
 import ConcertCard from "./ConcertCard"
 
 const ConcertCollection = ({ concerts }) => {
-    return (
+  return (
       <ul className="cards">
         {concerts.map((concert) => (
             <ConcertCard
@@ -15,7 +15,7 @@ const ConcertCollection = ({ concerts }) => {
             />
         ))}
       </ul>
-    )
-  }
+  )
+}
 
 export default ConcertCollection

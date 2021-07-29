@@ -2,7 +2,7 @@ import React from "react"
 // import YoutubeEmbed from "./YoutubeEmbed"
 
 const ConcertCard = ({ artist, image, venue, date, cost, key }) => {
- return (
+  return (
    <li key={key} className="card">
      <h2>{artist}</h2>
      <img src={image} alt={artist}/>
@@ -10,7 +10,7 @@ const ConcertCard = ({ artist, image, venue, date, cost, key }) => {
      <p>Date: {date}</p>
      <p>Cost: ${cost}</p>
    </li>
- )
+  )
 }
 
 export default ConcertCard
