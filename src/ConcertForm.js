@@ -33,6 +33,7 @@ const ConcertForm = ({ onAddConcert }) => {
     })
       .then((resp) => resp.json())
       .then(onAddConcert)
+    alert("Concert Added to Home Page!")
   }
   return (
     <div className="segment">
@@ -89,14 +90,6 @@ const ConcertForm = ({ onAddConcert }) => {
           />
           <br />
           <br />
-          <input
-          className="video-input"
-          type="text"
-          name="video"
-          placeholder="Music Video Url Here"
-          value={formData.video}
-          onChange={handleChange}
-          />
         </div>
         <br />
         <button className="concert-button" type="submit">

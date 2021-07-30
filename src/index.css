@@ -84,6 +84,7 @@ h3 {
   border-radius: 12px;
   padding: 6px 38px;
   transition-duration: 0.4s;
+  margin: 10px;
 }
 
 .home-button:hover {
@@ -95,6 +96,7 @@ h3 {
   border-radius: 12px;
   padding: 6px 24px;
   transition-duration: 0.4s;
+  margin: 10px;
 }
 
 .add-a-concert:hover {
@@ -106,6 +108,7 @@ h3 {
   border-radius: 12px;
   padding: 6px 24px;
   transition-duration: 0.4s;
+  margin: 10px;
 }
 
 .video-button:hover {
@@ -192,7 +195,7 @@ h3 {
 }
 
 .delete-btn:hover {
-  background-color: #3ab0b4; /* Green */
+  background-color: #3ab0b4;
   color: white;
 }
 

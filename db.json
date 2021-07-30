@@ -206,6 +206,33 @@
       "cost": 30,
       "video": "2dKYs_j4J0k",
       "id": 23
+    },
+    {
+      "artist": "Angels & Airwaves",
+      "image": "https://i.pinimg.com/originals/d8/32/f8/d832f85a35e71d1dc247018ea9ba63a0.jpg",
+      "venue": "Franklin Music Hall",
+      "date": "Tuesday October 19th, 7:30 PM",
+      "cost": 39,
+      "video": "JMl8cQjBfqk",
+      "id": 24
+    },
+    {
+      "artist": "Harry Styles",
+      "image": "https://static.billboard.com/files/2021/03/Harry-Styles-2021-Grammy-Awards-Portrait-billboard-1548-1617131070-compressed.jpg",
+      "venue": "Wells Fargo Center",
+      "date": "Friday September 17th, 8 PM",
+      "cost": 169,
+      "video": "VF-r5TtlT9w",
+      "id": 25
+    },
+    {
+      "artist": "Bleachers",
+      "image": "https://wpr-public.s3.amazonaws.com/wprorg/lead-photo_credit-carlotta-kohl_wide-458bf40d3412ef71e8266ce90c750a185a589a5c_0.jpg",
+      "venue": "Skyline Stage",
+      "date": "Thursday September 23rd, 8 PM",
+      "cost": 46,
+      "video": "o5osPtE7kXI",
+      "id": 26
     }
   ]
 }
