@@ -1,7 +1,11 @@
 .App {
   text-align: center;
-  background: rgb(58,176,180);
-  background: linear-gradient(90deg, rgba(58,176,180,1) 0%, rgba(162,29,253,1) 50%, rgba(58,176,180,1) 100%);
+  /* background-color: black; */
+  /* background: linear-gradient(90deg, rgb(58,176,180,1) 0%, rgb(0, 0, 0) 50%, rgb(58,176,180,1) 100%); */
+  background-image: url("https://www.aegworldwide.com/sites/default/files/styles/medium/public/press-release/2018-09/NorthSeventh6.jpg?itok=KsQuef1o");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 * {
@@ -23,7 +27,7 @@ text-transform: none;
 
 .header-p {
   font-family: Impact, Charcoal, sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   letter-spacing: 2px;
   word-spacing: 10px;
   color: #FFFFFF;
@@ -40,7 +44,7 @@ h2 {
 
 h3 {
   font-family: Impact, Charcoal, sans-serif;
-  font-size: 25px;
+  font-size: 35px;
   letter-spacing: 4px;
   word-spacing: 10px;
   color: #FFFFFF;
@@ -56,9 +60,9 @@ h3 {
 }
 
 .segment {
-  padding: 2rem 1rem;
+  padding: 60px;
   margin: 2rem 0;
-  background-image: url("https://i.pinimg.com/originals/90/f8/3e/90f83eae3debcaa6ee9832d2f64d614b.png");
+  /* background-image: url("https://i.pinimg.com/originals/90/f8/3e/90f83eae3debcaa6ee9832d2f64d614b.png"); */
 }
 
 .navbar {
