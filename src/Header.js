@@ -7,7 +7,7 @@ const Header = () => {
       🎉🎵 Philly Live 🎵🎉
       </h1>
       <p className="header-p">
-        Concert tickets I plan to purchase.
+        Your concert ticket wish list. Purchase when you are ready.
       </p>
     </header>
   )
